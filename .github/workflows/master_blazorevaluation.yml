@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'blazorevaluation'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e2270cca63b6476c8787feb4b36fc373 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2fcff0f8f35b4a77857b951c8b7e6a76 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
