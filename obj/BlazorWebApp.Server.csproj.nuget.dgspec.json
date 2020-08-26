@@ -1,0 +1,207 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Server/BlazorWebApp.Server.csproj": {}
+  },
+  "projects": {
+    "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Client/BlazorWebApp.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Client/BlazorWebApp.Client.csproj",
+        "projectName": "BlazorWebApp.Client",
+        "projectPath": "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Client/BlazorWebApp.Client.csproj",
+        "packagesPath": "/Users/niyom/.nuget/packages/",
+        "outputPath": "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Client/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/niyom/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Shared/BlazorWebApp.Shared.csproj": {
+                "projectPath": "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Shared/BlazorWebApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Server/BlazorWebApp.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Server/BlazorWebApp.Server.csproj",
+        "projectName": "BlazorWebApp.Server",
+        "projectPath": "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Server/BlazorWebApp.Server.csproj",
+        "packagesPath": "/Users/niyom/.nuget/packages/",
+        "outputPath": "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Server/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/niyom/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Client/BlazorWebApp.Client.csproj": {
+                "projectPath": "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Client/BlazorWebApp.Client.csproj"
+              },
+              "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Shared/BlazorWebApp.Shared.csproj": {
+                "projectPath": "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Shared/BlazorWebApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Shared/BlazorWebApp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Shared/BlazorWebApp.Shared.csproj",
+        "projectName": "BlazorWebApp.Shared",
+        "projectPath": "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Shared/BlazorWebApp.Shared.csproj",
+        "packagesPath": "/Users/niyom/.nuget/packages/",
+        "outputPath": "/Users/niyom/www/BlazorWebApp/BlazorWebApp/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/niyom/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
